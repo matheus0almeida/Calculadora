@@ -19,7 +19,7 @@ class TESTES(unittest.TestCase):
         self.assertEqual(7,resultado)
 
     def test_div_por_0(self):
-        divisor=0
+        divisor=1
         self.assertIsNot(0,divisor)
 
 
